@@ -222,7 +222,6 @@ const LandingPage: React.FC = () => {
                 <PrimaryButton
                   onClick={() => navigate('/recipes')}
                   sx={{ mt: 2, width: { xs: '100%', sm: 'auto' } }}
-                  fullWidth={false}
                 >
                   Get Started
                 </PrimaryButton>
@@ -296,15 +295,15 @@ const LandingPage: React.FC = () => {
         <Grid container spacing={4} sx={{ mt: 2, alignItems: 'stretch' }}>
           {[
             {
-              title: 'Frontier Intelligence',
-              description: 'Powered by a mix of purpose-built and frontier models, Recipe AI is smart and fast.'
+              title: 'Easy to Use',
+              description: 'Enter your ingredients, and let the AI generate recipes for you.'
             },
             {
-              title: 'Feels Familiar',
-              description: 'Import your favorite recipes, preferences, and dietary needs in one click.'
+              title: 'Faster Cooking Times',
+              description: 'Get recipes in seconds, no more waiting for youtube videos or google searches.'
             },
             {
-              title: 'Privacy Options',
+              title: 'Upheld Privacy',
               description: 'Your data is never stored remotely. Recipe AI is privacy-first.'
             },
           ].map((feature, index) => (
